@@ -1,0 +1,5 @@
+# Especifica o serviço principal que será iniciado
+[services]
+  [services.web]
+    start = "npm start"
+    build = "npm install"
